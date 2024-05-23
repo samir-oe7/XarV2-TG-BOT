@@ -1,1 +1,1 @@
-console.log('new beginning')
+console.log('new beginning era of tg bot')
