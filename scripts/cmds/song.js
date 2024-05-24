@@ -24,7 +24,7 @@ module.exports = {
         return bot.sendMessage(chatId, `Please provide a search query. Usage: /sing song name`);
       }
 
-      bot.sendMessage(chatId, `🔍 Searching for song: ${searchTerm}`);
+      bot.sendMessage(chatId, `🔍 Searching for song: ${search}`);
 
       const searchResults = await yts(search);
       if (!searchResults.videos.length) {
